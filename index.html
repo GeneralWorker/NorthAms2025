@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North American Debate Tournament</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Facebook SDK -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">NorthAm Debate</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#tournament">Tournament Details</a></li>
+                <li><a href="#accommodations">Accommodations</a></li>
+                <li><a href="#food">Food & Dining</a></li>
+                <li><a href="#media">Media Hub</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to the North American Debate Tournament</h1>
+        <p>Join us for an unforgettable experience of wit, argument, and collaboration.</p>
+        <a href="#register" class="btn">Register Now</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn about the history and mission of the North American Debate Tournament.</p>
+    </section>
+
+    <!-- Tournament Details -->
+    <section id="tournament">
+        <h2>Tournament Details</h2>
+        <div>
+            <h3>Schedule</h3>
+            <p>Find the full event schedule here.</p>
+        </div>
+        <div>
+            <h3>Rules & Format</h3>
+            <p>Detailed rules and debate formats.</p>
+        </div>
+    </section>
+
+    <!-- Accommodation & Travel -->
+    <section id="accommodations">
+        <h2>Accommodations & Travel</h2>
+        <p>Plan your stay with our recommended hotels and travel tips.</p>
+    </section>
+
+    <!-- Food Section -->
+    <section id="food">
+        <h2>Food & Dining</h2>
+        <p>Check the meal schedule and dietary accommodations.</p>
+        <form>
+            <label for="allergy">Allergy Alert:</label>
+            <input type="text" id="allergy" name="allergy" placeholder="Enter allergies">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Media Hub -->
+    <section id="media">
+        <h2>Media Hub</h2>
+        <p>Stay updated with our latest news and updates.</p>
+        <!-- Embedded Facebook Feed -->
+        <div class="fb-page" 
+            data-href="https://www.facebook.com/YOUR_EVENT_PAGE"
+            data-tabs="timeline"
+            data-width="500" 
+            data-height="600" 
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="true">
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for more details.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 North American Debate Tournament. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
